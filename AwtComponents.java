@@ -2,7 +2,7 @@ import java.awt.*;
 public class AwtComponents extends Frame{
     AwtComponents(){
         Button b=new Button("SUBMIT");
-        b.setBounds(100,500,53,56);
+        b.setBounds(50,50,50,50);
         add(b);
         setSize(500,500);
         setTitle("Button Example");
